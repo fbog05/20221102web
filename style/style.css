@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: url('../pics/pics/bg-body.jpg') no-repeat;
+    background: url('../pics/bg-body.jpg') no-repeat;
     background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 #header{
-    background: url('../pics/pics/bg-header.jpg') no-repeat;
+    background: url('../pics/bg-header.jpg') no-repeat;
     height: 360px;
     position: relative;
 }
