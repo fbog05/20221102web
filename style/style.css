@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url('../pics/pics/bg-body.jpg') no-repeat;
+    background-size: cover;
+}
+
+#container{
+    max-width: 800px;
+    margin: 80px auto;
+    box-shadow: 0 0 200px rgba(163, 159, 159, 0.5);
+}
+
+#header{
+    background: url('../pics/pics/bg-header.jpg') no-repeat;
+    height: 360px;
+    position: relative;
+}
+
+#header ul{
+    list-style-type: none;
+}
+
+#header ul::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#header #nav{
+    background-color: rgba(151, 7, 7, 0.7);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 800px;
+}
+
+#header ul li{
+    float: left;
+}
+
+#header ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#header ul li a:hover{
+    text-decoration: underline;
+}
+
+#content{
+    background-color: white;
+    padding: 40px;
+}
+
+h1{
+    margin-bottom: 37px;
+}
+
+h2{
+    margin: 20px 37px 37px 0;
+}
+
+p{
+    padding-bottom: 20px;
+}
+
+#cookie-accept{
+    background-color: rgba(0, 0, 0, 0.938);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#cookie-accept button{
+    background-color: #ffff00;
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
